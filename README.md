@@ -11,6 +11,7 @@ The container supports environment variables for the server name, port, address,
 
 ```
 docker run -d \
+  --network host \
   -e name=chserver #OPTIONAL \
   -e port=14242 #OPTIONAL \
   -e address=0.0.0.0 #OPTIONAL \
