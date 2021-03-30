@@ -16,5 +16,6 @@ docker run -d \
   -e port=14242 #OPTIONAL \
   -e address=0.0.0.0 #OPTIONAL \
   -e password=clonehero #OPTIONAL \
+  -v /path/to/settings.ini:/settings.ini #RECOMMENDED \
   clonehero-docker
 ```
